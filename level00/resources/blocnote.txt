@@ -1,0 +1,16 @@
+level00@SnowCrash:~$ find / -user flag00 -exec cat {} \; 2>/dev/null
+cdiiddwpgswtgt
+cdiiddwpgswtgt
+
+
+level00@SnowCrash:~$ cc decript.c && ./a.out cdiiddwpgswtgt
+Shift 11: nottoohardhere
+
+
+level00@SnowCrash:/rofs/usr/sbin$ su flag00
+Password: <- nottoohardhere
+Don't forget to launch getflag !
+flag00@SnowCrash:~$ getflag
+Check flag.Here is your token : x24ti5gi3x0ol2eh4esiuxias
+
+Flag is : x24ti5gi3x0ol2eh4esiuxias
