@@ -1,0 +1,52 @@
+..%
+..%
+..&..... ..#..'..$
+..&..... ..#..'..$
+.. .....#.....'.........
+.. .38400,38400....#.SodaCan:0....'..DISPLAY.SodaCan:0......xterm..
+........"........!
+........"..".....b........b....	B.
+..............................1.......!
+.."....
+.."....
+..!..........."
+........"
+..".............	..
+.....................
+Linux 2.6.38-8-generic-pae (::ffff:10.1.1.2) (pts/10)
+
+..wwwbugs login: 
+l
+.l
+e
+.e
+v
+.v
+e
+.e
+l
+.l
+X
+.X
+
+
+..
+Password: 
+ft_wandr...NDRel.L0L
+
+.
+..
+Login incorrect
+wwwbugs login: 
+
+
+ft_wandr...NDRel.L0L <- code 
+
+les . sont = a des effacement 
+donc le password est : ft_waNDReL0L
+
+level02@SnowCrash:~$ su flag02
+Password: <- ft_waNDReL0L
+Don't forget to launch getflag !
+flag02@SnowCrash:~$ getflag
+Check flag.Here is your token : kooda2puivaav1idi4f57q8iq
